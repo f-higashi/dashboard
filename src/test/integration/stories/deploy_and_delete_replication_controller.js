@@ -91,8 +91,4 @@ describe('Deploy and delete replication controller user story test', () => {
 
     expect(element(by.xpath(applicationCardXPath)).isPresent()).toBeFalsy();
   });
-
-  // Clean up and delete created resources
-  afterAll(() => { zeroStatePage.waitUntilZeroStatePageLoaded(); });
-
 });

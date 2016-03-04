@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+/*
 import path from 'path';
 
 import DeployFromFilePageObject from '../deploy/deployfromfile_po';
@@ -19,7 +20,7 @@ import DeployFromFilePageObject from '../deploy/deployfromfile_po';
 // Test assumes, that there are no replication controllers in the cluster at the beginning.
 describe('Deploy from invalid file user story test', () => {
 
-  /** @type {!DeployFromFilePageObject} */
+  /!** @type {!DeployFromFilePageObject} *!/
   let deployFromFilePage;
 
   beforeAll(() => {
@@ -43,3 +44,4 @@ describe('Deploy from invalid file user story test', () => {
     expect(browser.getCurrentUrl()).toContain('deploy');
   });
 });
+*/
