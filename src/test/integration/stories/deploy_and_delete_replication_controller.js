@@ -47,7 +47,6 @@ describe('Deploy and delete replication controller user story test', () => {
     deployPage = new DeployPageObject();
     deleteReplicationControllerDialog = new DeleteReplicationControllerDialogObject();
     replicationControllersPage = new ReplicationControllersPageObject();
-    zeroStatePage = new ZeroStatePageObject();
   });
 
   it('should go to deploy page', () => {
