@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+/*
 import path from 'path';
 
 import DeployFromFilePageObject from '../deploy/deployfromfile_po';
@@ -22,19 +23,19 @@ import ZeroStatePageObject from '../zerostate/zerostate_po';
 // Test assumes, that there are no replication controllers in the cluster at the beginning.
 describe('Deploy from valid file user story test', () => {
 
-  /** @type {!DeployFromFilePageObject} */
+  /!** @type {!DeployFromFilePageObject} *!/
   let deployFromFilePage;
 
-  /** @type {!ReplicationControllersPageObject} */
+  /!** @type {!ReplicationControllersPageObject} *!/
   let replicationControllersPage;
 
-  /** @type {!ZeroStatePageObject} */
+  /!** @type {!ZeroStatePageObject} *!/
   let zeroStatePage;
 
-  /** @type {!DeleteReplicationControllerDialogObject} */
+  /!** @type {!DeleteReplicationControllerDialogObject} *!/
   let deleteDialog;
 
-  /** @type {!string} */
+  /!** @type {!string} *!/
   let appName = 'integration-test-valid-rc';
 
   beforeAll(() => {
@@ -75,3 +76,4 @@ describe('Deploy from valid file user story test', () => {
     zeroStatePage.waitUntilZeroStatePageLoaded();
   });
 });
+*/
