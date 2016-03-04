@@ -16,8 +16,10 @@
 import path from 'path';
 
 import DeployFromFilePageObject from '../deploy/deployfromfile_po';
-import ReplicationControllersPageObject from '../replicationcontrollerslist/replicationcontrollers_po';
-import DeleteReplicationControllerDialogObject from '../replicationcontrollerdetail/deletereplicationcontroller_po';
+import ReplicationControllersPageObject from
+'../replicationcontrollerslist/replicationcontrollers_po';
+import DeleteReplicationControllerDialogObject from
+'../replicationcontrollerdetail/deletereplicationcontroller_po';
 import ZeroStatePageObject from '../zerostate/zerostate_po';
 
 // Test assumes, that there are no replication controllers in the cluster at the beginning.
