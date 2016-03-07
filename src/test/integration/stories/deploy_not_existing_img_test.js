@@ -56,6 +56,7 @@ describe('Deploy not existing image story', () => {
 
   beforeAll(() => {
     // For empty cluster this should actually redirect to zerostate page
+    browser.driver.manage().window().setSize(1000, 750);
     browser.get('#/replicationcontrollers');
 
     zeroStatePage = new ZeroStatePageObject();
