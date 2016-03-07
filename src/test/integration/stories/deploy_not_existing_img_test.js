@@ -80,7 +80,7 @@ describe('Deploy not existing image story', () => {
     deployPage.containerImageField.sendKeys(containerImage);
 
     // when
-    deployPage.deployButton.click();
+    deployPage.deployButton.sendKeys("\r");
 
     // then
     expect(browser.getCurrentUrl()).toContain('replicationcontrollers');
