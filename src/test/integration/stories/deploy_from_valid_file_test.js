@@ -73,8 +73,11 @@ describe('Deploy from valid file user story test', () => {
         replicationControllersPage.cardMenuButtonQuery, appName);
     browser.get('#/replicationcontrollers');
     cardMenuButton.click();
-    replicationControllersPage.deleteAppButton.click().then(
-        () => { deleteDialog.deleteAppButton.click(); });
+    replicationControllersPage.deleteAppButton.click().then(() => {
+      /** global sleep**/
+      sleep(1000);
+      deleteDialog.deleteAppButton.click();
+    });
     zeroStatePage.waitUntilZeroStatePageLoaded();
   });
 });
