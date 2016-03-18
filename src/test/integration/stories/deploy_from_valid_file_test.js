@@ -74,7 +74,7 @@ describe('Deploy from valid file user story test', () => {
     browser.get('#/replicationcontrollers');
     cardMenuButton.click();
     replicationControllersPage.deleteAppButton.click().then(() => {
-      browser.driver.sleep(1000);
+      deleteDialog.deleteDialog.getText();
       deleteDialog.deleteAppButton.click();
     });
     zeroStatePage.waitUntilZeroStatePageLoaded();
